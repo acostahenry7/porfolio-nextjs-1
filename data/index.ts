@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a Gym Booking App",
+    description: "With Expo",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -70,18 +70,18 @@ export const gridItems = [
 ];
 
 export const gridItemsStack = {
-  leftList: ["Next.js", "React.js", "TypeScript"],
+  leftList: ["Next.js", "React Native", "TypeScript"],
   rightList: ["TailwindCSS", "GSAP", "PostgresSQL"],
 };
 
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Nike Website",
+    des: "Stylish website build on top of react with minimalistic design and fully responsive layouts",
+    img: "/pj-1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://acostahenry7.github.io/pf-nike-website/",
   },
   {
     id: 2,
@@ -101,11 +101,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://acostahenry7.github.io/iphone-landingpage/",
   },
 ];
 
