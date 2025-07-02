@@ -4,7 +4,7 @@ const { withSentryConfig } = require("@sentry/nextjs");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/porfolio-nextjs-1/",
+  basePath: "/porfolio-nextjs-1",
   eslint: {
     ignoreDuringBuilds: true,
   },
