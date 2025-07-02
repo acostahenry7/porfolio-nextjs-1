@@ -23,7 +23,7 @@ const Hero = () => {
         <div
           className={cn(
             "absolute inset-0",
-            "[background-size:70px_70px]",
+            "[background-size:100px_100px]",
             "[background-image:linear-gradient(to_right,rgba(255,255,255,0.04)_1px,transparent_0.5px),linear-gradient(to_bottom,rgba(255,255,255,0.04)_1px,transparent_1px)]",
             "dark:bg-black-100"
           )}

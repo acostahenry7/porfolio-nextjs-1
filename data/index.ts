@@ -97,23 +97,24 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://acostahenry7.github.io/iphone-landingpage/",
   },
-  {
-    id: 3,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "#projects",
-  },
-  {
-    id: 4,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "#projects",
-  },
+  //   {
+  //     id: 3,
+  //     title: "Yoom - Video Conferencing App",
+  //     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+  //     img: "/p2.svg",
+  //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+  //     link: "#projects",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "AI Image SaaS - Canva Application",
+  //     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //     img: "/p3.svg",
+  //     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //     link: "#projects",
+  //   },
 ];
+// ];
 
 export const testimonials = [
   {
@@ -184,31 +185,32 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer",
-    desc: "As a freelancer for different customers such as tech companies, travel agencies and more",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
     title: "Full Stack Dev - Grupo Avant",
     desc: "Developed web applications, scalable APIs, responsive UIs, and integrated third-party services",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
+    id: 2,
+    title: "Frontend Engineer",
+    desc: "As a freelancer for different customers such as tech companies, travel agencies and more",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+
+  {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Sr. Frontend Dev - EIE",
+    desc: "Creating, deploying and mantaining web solutions, everything from complex projects to simple static websites.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Freelance App Dev Project",
+    desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
   },
 ];
 
@@ -222,7 +224,7 @@ export const phases = [
       "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
   },
   {
-    title: "Development & Progress Updat",
+    title: "Development & Progress Update",
     icon: "",
     containerClass: "bg-pink-900",
     order: "Phase 2",
@@ -243,13 +245,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/acostahenry7",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/henry-acosta-jr/",
   },
 ];
