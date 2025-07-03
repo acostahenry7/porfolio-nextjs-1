@@ -5,6 +5,7 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const basepath = "/porfolio-nextjs-1";
 export const gridItems = [
   {
     id: 1,
@@ -13,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: `${basepath}/b1.svg`,
     spareImg: "",
   },
   {
@@ -43,8 +44,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: `${basepath}/grid.svg`,
+    spareImg: `${basepath}/b4.svg`,
   },
 
   {
@@ -54,8 +55,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: `${basepath}/b5.svg`,
+    spareImg: `${basepath}/grid.svg`,
   },
   {
     id: 6,
@@ -79,12 +80,12 @@ export const projects = [
     id: 1,
     title: "Nike Website",
     des: "Stylish website build on top of react with minimalistic design and fully responsive layouts",
-    img: "/pj-1.svg",
+    img: `${basepath}/pj-1.svg`,
     iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/re.svg",
-      "/ts.svg",
+      `${basepath}/next.svg`,
+      `${basepath}/tail.svg`,
+      `${basepath}/re.svg`,
+      `${basepath}/ts.svg`,
       //  "/three.svg", "/fm.svg"
     ],
     link: "https://acostahenry7.github.io/pf-nike-website/",
@@ -93,15 +94,21 @@ export const projects = [
     id: 2,
     title: "Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: `${basepath}/p4.svg`,
+    iconLists: [
+      `${basepath}/next.svg`,
+      `${basepath}/tail.svg`,
+      `${basepath}/ts.svg`,
+      `${basepath}/three.svg`,
+      `${basepath}/gsap.svg`,
+    ],
     link: "https://acostahenry7.github.io/iphone-landingpage/",
   },
   //   {
   //     id: 3,
   //     title: "Yoom - Video Conferencing App",
   //     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-  //     img: "/p2.svg",
+  //    ${ img}: `basepath/p2.svg`,
   //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
   //     link: "#projects",
   //   },
@@ -109,7 +116,7 @@ export const projects = [
   //     id: 4,
   //     title: "AI Image SaaS - Canva Application",
   //     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //     img: "/p3.svg",
+  //    ${ img}: `basepath/p3.svg`,
   //     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
   //     link: "#projects",
   //   },
@@ -122,12 +129,14 @@ export const testimonials = [
       "We worked with Henry as part of an external team to develop a field payment application for one of our clients in the financial sector. His work was consistent, well-organized, and aligned with the technical requirements of the project. He maintained clear communication throughout the process and met all established deadlines. His contribution was valuable in helping us meet the client’s objectives, and we would consider working with him again on future projects.",
     name: "José V. Jiménez",
     title: "CEO at EIE Solutions",
+    img: "/alfonso.jpg",
   },
   {
     quote:
       "During the development of our Gym Booking App, Henry played a key role in ensuring the project moved forward efficiently and with attention to detail. He demonstrated solid technical skills, was proactive in solving challenges, and communicated clearly with both the team and stakeholders. Thanks to his contributions, we were able to deliver a stable and user-friendly application within the expected timeline. His work added real value to the product and the development process overall.",
     name: "Alfonso Espinal",
     title: "IT Manager at Grupo Avant",
+    img: "/valen.jpg",
   },
   // {
   //   quote:
@@ -153,32 +162,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: `${basepath}/cloud.svg`,
+    nameImg: `${basepath}/cloudName.svg`,
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: `${basepath}/app.svg`,
+    nameImg: `${basepath}/appName.svg`,
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: `${basepath}/host.svg`,
+    nameImg: `${basepath}/hostName.svg`,
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: `${basepath}/s.svg`,
+    nameImg: `${basepath}/streamName.svg`,
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: `${basepath}/dock.svg`,
+    nameImg: `${basepath}/dockerName.svg`,
   },
 ];
 
@@ -188,14 +197,14 @@ export const workExperience = [
     title: "Full Stack Dev - Grupo Avant",
     desc: "Developed web applications, scalable APIs, responsive UIs, and integrated third-party services",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: `${basepath}/exp2.svg`,
   },
   {
     id: 2,
     title: "Frontend Engineer",
     desc: "As a freelancer for different customers such as tech companies, travel agencies and more",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: `${basepath}/exp1.svg`,
   },
 
   {
@@ -203,14 +212,14 @@ export const workExperience = [
     title: "Sr. Frontend Dev - EIE",
     desc: "Creating, deploying and mantaining web solutions, everything from complex projects to simple static websites.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: `${basepath}/exp4.svg`,
   },
   {
     id: 4,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: `${basepath}/exp3.svg`,
   },
 ];
 
@@ -244,17 +253,17 @@ export const phases = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: `${basepath}/git.svg`,
     link: "https://github.com/acostahenry7",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: `${basepath}/twit.svg`,
     link: "/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: `${basepath}/link.svg`,
     link: "https://www.linkedin.com/in/henry-acosta-jr/",
   },
 ];
