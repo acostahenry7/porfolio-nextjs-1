@@ -1,5 +1,5 @@
 import MagicButton from "@/components/ui/MagicButton";
-import { socialMedia } from "@/data";
+import { basepath, socialMedia } from "@/data";
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
 
@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="w-full md:pt-20 pt-10 pb-20" id="contact">
       <div className="w-full absolute left-0 bottom-0 md:h-[80vh] h-[100vh] overflow-hidden">
         <img
-          src="/footer-grid.svg"
+          src={`${basepath}/footer-grid.svg`}
           alt="grid"
           className="w-full h-full md:opacity-50 opacity-60 object-none "
         />
